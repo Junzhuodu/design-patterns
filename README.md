@@ -35,8 +35,6 @@ objects).
 - [Template Method], steps of an algorithm
 - [Visitor], operations that can be applied to objects without changing their classes
 
-### Other Languages
-In my repository you can find implementation of desgin patterns also in languages as 
 
 * [Design Patterns in C++]
 * [Design Patterns in Java]
@@ -50,8 +48,6 @@ Design patterns in this repository are based on
 * [Wikipedia]
 
 [Design Patterns in C++]: https://github.com/JakubVojvoda/design-patterns-cpp
-[Design Patterns in Java]: https://github.com/JakubVojvoda/design-patterns-java
-[Design Patterns in Python]: https://github.com/JakubVojvoda/design-patterns-python
 
 [Design Patterns by The "Gang of Four"]: https://en.wikipedia.org/wiki/Design_Patterns
 [Head First: Design Patterns]: http://www.headfirstlabs.com/books/hfdp/ 

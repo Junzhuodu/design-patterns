@@ -5,29 +5,31 @@ project(CppDesignPatterns)
 set (CMAKE_CXX_STANDARD 11)
 
 set(PATTERNS
-        abstract-factory
-        adapter
-        bridge
-        builder
-        chain-of-responsibility
-        command
-        composite
-        decorator
-        facade
-        factory-method
-        flyweight
-        interpreter
-        iterator
-        mediator
-        memento
-        observer
-        prototype
-        proxy
-        singleton
-        state
-        strategy
-        template-method
-        visitor
+        CreationalPatterns/abstract-factory
+        CreationalPatterns/builder
+        CreationalPatterns/factory-method
+        CreationalPatterns/prototype
+        CreationalPatterns/singleton
+
+        StructuralPatterns/adapter
+        StructuralPatterns/bridge
+        StructuralPatterns/proxy
+        StructuralPatterns/composite
+        StructuralPatterns/decorator
+        StructuralPatterns/facade
+        StructuralPatterns/flyweight
+
+        BehaviroalPatterns/chain-of-responsibility
+        BehaviroalPatterns/command
+        BehaviroalPatterns/interpreter
+        BehaviroalPatterns/iterator
+        BehaviroalPatterns/mediator
+        BehaviroalPatterns/memento
+        BehaviroalPatterns/observer
+        BehaviroalPatterns/state
+        BehaviroalPatterns/strategy
+        BehaviroalPatterns/template-method
+        BehaviroalPatterns/visitor
         )
 
 foreach(_dir IN ITEMS ${PATTERNS})
