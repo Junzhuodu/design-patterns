@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.5)
 
 project(CppDesignPatterns)
 
+set (CMAKE_CXX_STANDARD 11)
+
 set(PATTERNS
         abstract-factory
         adapter
@@ -29,7 +31,7 @@ set(PATTERNS
         )
 
 foreach(_dir IN ITEMS ${PATTERNS})
-    file(GLOB _files "${_dir}/*.cpp")
+    file(GLOB _files "${_dir}/*.cxx")
     message(STATUS "Pattern `${_dir}':")
 
     foreach(_file IN ITEMS ${_files})
