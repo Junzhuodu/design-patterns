@@ -45,7 +45,7 @@ foreach(_dir IN ITEMS ${PATTERNS})
         set(_project_name "${_file_name}")
         message(STATUS "  ${_dir}/${_file_name} is going to be built")
 
-        add_executable(${_project_name} "${_dir}/${_file_name}")
+        add_executable(${_project_name} "${_dir}/${_file_name}" BehaviroalPatterns/chain-of-responsibility/ChainOfResponsibility.cxx)
     endforeach()
 
 endforeach()
