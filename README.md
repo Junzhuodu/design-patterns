@@ -1,78 +1,90 @@
 ## C++ Design Patterns
 
-Software design patterns are general reusable solutions to problems which occur
-over and over again in object-oriented design enviroment. It is not a finished 
-design that can be transformed into source code directly, but it is template how
-to solve the problem. We can classify them by purpose into creational (abstract 
-the instantiation process), structure (how classes and objects are composed to form 
-larger structures) and behavioral patterns (the assignment of responsibilities between 
-objects).  
+C++ Implementation for 23 Design Patterns
 
 #### Creational Patterns 
 - [Abstract Factory], families of product objects
+![image](./images/AbstractFactory.png)
 - [Builder], how a composite object gets created
+![image](./images/Builder.png)
 - [Factory Method], subclass of object that is instantiated
+![image](./images/Factory.png)
 - [Prototype], class of object that is instantiated
+![image](images/Prototype.png)
 - [Singleton], the sole instance of a class 
+![image](./images/SingletonPattern.png)
 #### Structural Patterns
 - [Adapter], interface to an object
+![image](./images/Adapter.png)
 - [Bridge], implementation of an object 
+![image](./images/Bridge.png)
 - [Composite], structure and composition of an object
+![image](./images/Composite.png)
 - [Decorator], responsibilities of an object without subclassing
+![image](./images/Decorator.png)
 - [Façade], interface to a subsystem
+![image](./images/Facade.png)
 - [Flyweight], storage costs of objects
+![image](./images/Flyweight.png)
 - [Proxy], how an object is accessed (its location)
+![image](./images/Proxy.png)
 #### Behavioral Patterns
 - [Chain of Responsibility], object that can fulfill a request
+![image](./images/ChainOfResponsibility.png)
 - [Command], when and how a request is fulfilled
+![image](./images/Command.PNG)
 - [Interpreter], grammar and interpretation of a language
+![image](./images/Interpreter.PNG)
 - [Iterator], how an aggregate's elements are accessed
+![image](./images/Iterator.png)
 - [Mediator], how and which objects interact with each other
+![image](./images/Mediator.PNG)
 - [Memento], what private information is stored outside an object, and when 
+![image](./images/Memento.PNG)
 - [Observer], how the dependent objects stay up to date
+![image](./images/Observer.PNG)
 - [State], states of an object
+![image](./images/State.PNG)
 - [Strategy], an algorithm
+![image](./images/Strategy.PNG)
 - [Template Method], steps of an algorithm
+![image](./images/TemplateMethod.png)
 - [Visitor], operations that can be applied to objects without changing their classes
-
-
-* [Design Patterns in C++]
-* [Design Patterns in Java]
-* [Design Patterns in Python]
+![image](./images/Visitor.PNG)
 
 ### References
 Design patterns in this repository are based on
 
 * [Design Patterns by The "Gang of Four"]
-* [Head First: Design Patterns]
+* [Design Patterns in C++]
 * [Wikipedia]
 
-[Design Patterns in C++]: https://github.com/JakubVojvoda/design-patterns-cpp
-
 [Design Patterns by The "Gang of Four"]: https://en.wikipedia.org/wiki/Design_Patterns
-[Head First: Design Patterns]: http://www.headfirstlabs.com/books/hfdp/ 
+[Design Patterns in C++]: https://github.com/JakubVojvoda/design-patterns-cpp
 [Wikipedia]: https://en.wikipedia.org/wiki/Software_design_pattern
 
-[Abstract Factory]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/abstract-factory
-[Builder]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/builder
-[Factory Method]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/factory-method
-[Prototype]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/prototype
-[Singleton]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/singleton
-[Adapter]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/adapter
-[Bridge]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/bridge 
-[Composite]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/composite
-[Decorator]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/decorator
-[Façade]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/facade
-[Flyweight]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/flyweight
-[Proxy]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/proxy
-[Chain of Responsibility]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/chain-of-responsibility
-[Command]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/command
-[Interpreter]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/interpreter
-[Iterator]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/iterator
-[Mediator]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/mediator
-[Memento]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/memento
-[Observer]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/observer
-[State]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/state
-[Strategy]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/strategy
-[Template Method]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/template-method
-[Visitor]: https://github.com/JakubVojvoda/design-patterns-cpp/tree/master/visitor
+[Abstract Factory]: https://https://github.com/Junzhuodu/design-patterns/tree/master/CreationalPatterns/abstract-factory
+[Builder]: https://github.com/Junzhuodu/design-patterns/tree/master/CreationalPatterns/builder
+[Factory Method]: https://github.com/Junzhuodu/design-patterns/tree/CreationalPatterns/master/factory-method
+[Prototype]: https://github.com/Junzhuodu/design-patterns/tree/CreationalPatterns/master/prototype
+[Singleton]: https://github.com/Junzhuodu/design-patterns/tree/CreationalPatterns/master/singleton
+
+[Adapter]: https://github.com/Junzhuodu/design-patterns/tree/master/StructuralPatterns/adapter
+[Bridge]: https://github.com/Junzhuodu/design-patterns/tree/master/StructuralPatterns/bridge 
+[Composite]: https://github.com/Junzhuodu/design-patterns/tree/master/StructuralPatterns/composite
+[Decorator]: https://github.com/Junzhuodu/design-patterns/tree/master/StructuralPatterns/decorator
+[Façade]: https://github.com/Junzhuodu/design-patterns/tree/master/StructuralPatterns/facade
+[Flyweight]: https://github.com/Junzhuodu/design-patterns/tree/master/StructuralPatterns/flyweight
+[Proxy]: https://github.com/Junzhuodu/design-patterns/tree/master/StructuralPatterns/proxy
+
+[Chain of Responsibility]: https://github.com/Junzhuodu/design-patterns/tree/master/BehaviroalPatterns/chain-of-responsibility
+[Command]: https://github.com/Junzhuodu/design-patterns/tree/master/BehaviroalPatterns/command
+[Interpreter]: https://github.com/Junzhuodu/design-patterns/tree/master/BehaviroalPatterns/interpreter
+[Iterator]: https://github.com/Junzhuodu/design-patterns/tree/master/BehaviroalPatterns/iterator
+[Mediator]: https://github.com/Junzhuodu/design-patterns/tree/master/BehaviroalPatterns/mediator
+[Memento]: https://github.com/Junzhuodu/design-patterns/tree/master/BehaviroalPatterns/memento
+[Observer]: https://github.com/Junzhuodu/design-patterns/tree/master/BehaviroalPatterns/observer
+[State]: https://github.com/Junzhuodu/design-patterns/tree/master/BehaviroalPatterns/state
+[Strategy]: https://github.com/Junzhuodu/design-patterns/tree/master/BehaviroalPatterns/strategy
+[Template Method]: https://github.com/Junzhuodu/design-patterns/tree/master/BehaviroalPatterns/template-method
+[Visitor]: https://github.com/Junzhuodu/design-patterns/tree/master/BehaviroalPatterns/visitor
