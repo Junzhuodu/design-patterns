@@ -63,7 +63,7 @@ Design patterns in this repository are based on
 [Design Patterns in C++]: https://github.com/JakubVojvoda/design-patterns-cpp
 [Wikipedia]: https://en.wikipedia.org/wiki/Software_design_pattern
 
-[Abstract Factory]: https://https://github.com/Junzhuodu/design-patterns/tree/master/CreationalPatterns/abstract-factory
+[Abstract Factory]: https://github.com/Junzhuodu/design-patterns/tree/master/CreationalPatterns/abstract-factory
 [Builder]: https://github.com/Junzhuodu/design-patterns/tree/master/CreationalPatterns/builder
 [Factory Method]: https://github.com/Junzhuodu/design-patterns/tree/CreationalPatterns/master/factory-method
 [Prototype]: https://github.com/Junzhuodu/design-patterns/tree/CreationalPatterns/master/prototype
