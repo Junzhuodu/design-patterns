@@ -58,10 +58,12 @@ Design patterns in this repository are based on
 * [Design Patterns by The "Gang of Four"]
 * [Design Patterns in C++]
 * [Wikipedia]
+* [Design Patterns]
 
 [Design Patterns by The "Gang of Four"]: https://en.wikipedia.org/wiki/Design_Patterns
 [Design Patterns in C++]: https://github.com/JakubVojvoda/design-patterns-cpp
 [Wikipedia]: https://en.wikipedia.org/wiki/Software_design_pattern
+[Design Patterns]: https://refactoring.guru/design-patterns
 
 [Abstract Factory]: https://github.com/Junzhuodu/design-patterns/tree/master/CreationalPatterns/abstract-factory
 [Builder]: https://github.com/Junzhuodu/design-patterns/tree/master/CreationalPatterns/builder
