@@ -67,7 +67,7 @@ Design patterns in this repository are based on
 
 [Abstract Factory]: https://github.com/Junzhuodu/design-patterns/tree/master/CreationalPatterns/abstract-factory
 [Builder]: https://github.com/Junzhuodu/design-patterns/tree/master/CreationalPatterns/builder
-[Factory Method]: https://github.com/Junzhuodu/design-patterns/tree/CreationalPatterns/master/factory-method
+[Factory Method]: https://github.com/Junzhuodu/design-patterns/tree/master/CreationalPatterns/factory-method
 [Prototype]: https://github.com/Junzhuodu/design-patterns/tree/CreationalPatterns/master/prototype
 [Singleton]: https://github.com/Junzhuodu/design-patterns/tree/master/CreationalPatterns/singleton
 
